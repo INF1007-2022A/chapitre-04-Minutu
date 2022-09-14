@@ -1,0 +1,1 @@
+print(range(len('b')))
