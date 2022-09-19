@@ -32,8 +32,9 @@ def get_number_of_char(string: str, char: str) -> int:
 
 
 def get_number_of_words(sentence: str, word: str) -> int:
+    words = sentence.split()
     number_of_words=0
-    for i in sentence:
+    for i in words:
         if i==word:
             number_of_words+=1
     return number_of_words
